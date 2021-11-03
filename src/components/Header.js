@@ -9,7 +9,7 @@ const Header = ({ title, onAdd, showAdd }) => {
             <h1>{title}</h1>
             <Button
                 color={showAdd ? 'red' : 'green'}
-                text={showAdd ? 'Close' : 'Add'}
+                text={showAdd ? 'Хаах' : 'Нэмэх'}
                 onClick={onAdd}
             />
         </header>
@@ -17,7 +17,7 @@ const Header = ({ title, onAdd, showAdd }) => {
 }
 
 Header.defaultProps = {
-    title: 'Task Tracker by EverLast',
+    title: 'Сагсанд',
 }
 
 Header.propTypes = {

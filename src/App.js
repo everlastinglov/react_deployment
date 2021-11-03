@@ -55,9 +55,10 @@ const toggleReminder = (id) => {
           onDelete={deleteTask} 
           onToggle={ toggleReminder }
         />) : (
-            'No Tasks To Show'
+            'Хоосон байна...'
           )}
     </div>
+  
   )
 }
 

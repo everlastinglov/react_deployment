@@ -22,24 +22,24 @@ const AddTask = ({ onAdd }) => {
     return (
         <form className='add-form' onSubmit={onSubmit}>
             <div className='form-control'>
-                <label>Task</label>
+                <label>Бараа 1</label>
                 <input 
                     type='text' 
-                    placeholder='Add Task' 
+                    placeholder='Ширхэг' 
                     value={text} 
                     onChange={(e) => setText(e.target.value)} 
                 />
             </div>
             <div className='form-control'>
-                <label>Day & Time</label>
+                <label>Бараа 2</label>
                 <input 
                     type='text' 
-                    placeholder='Add Day & Time' 
+                    placeholder='Ширхэг' 
                     value={day} 
                     onChange={(e) => setDay(e.target.value)} />
             </div>
             <div className='form-control form-control-check'>
-                <label>Set Reminder</label>
+                <label>Сануул</label>
                 <input 
                     type='checkbox'
                     checked={reminder}
@@ -48,7 +48,7 @@ const AddTask = ({ onAdd }) => {
             </div>
             <input 
                 type='submit' 
-                value='Save Task' 
+                value='Сагсанд нэмэх' 
                 className='btn btn-block'/>
         </form>
     )
